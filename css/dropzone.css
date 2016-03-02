@@ -1,0 +1,51 @@
+.drag-drop-section {
+    display: none
+}
+
+.drop-zone, .dragged-images img {
+    height: 100px;
+    width: 100px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid red;
+    background: #485164;
+    background-size: contain;
+}
+
+.drop-zone.dragging {
+    font-weight: 700;
+    box-shadow: inset 0 0 12px 4px;
+
+}
+
+.drop-zone.dragging .default-label {
+    display: none
+}
+
+.drop-zone.dragging .dragging-label {
+    display: block
+}
+
+.drop-zone-label {
+    position: relative;
+    top: 11rem;
+    color: #fdf485;
+    font-size: 1rem;
+    text-align: center;
+    pointer-events: none;
+    text-transform: uppercase;
+    border-radius: 8px
+}
+
+
+.dragging-label {
+    display: none
+}
+
+.dropped-image .run-functions-button {
+    display: none
+}
+
+.drop-zone {
+    background-image: url(../img/default.png);
+}

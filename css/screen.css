@@ -1,0 +1,109 @@
+body {
+    background: #485164;
+    color: #a2c9ff;
+    font-family: "Proxima Nova";
+}
+
+.topbar {
+    width: 100%;
+    height: 48px;
+    background: #2d3544;
+}
+
+.wrapper {
+    width: 100%;
+    text-align: center;    
+}
+
+h1.organizer {
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+h2.title {
+    font-size: 20px;
+    margin-bottom: 32px;
+}
+
+button {
+    color: #485164;
+    font-family: "Proxima Nova";
+    padding: 16px 24px;
+    background: #a2c9ff;
+    border-radius: 8px;
+    border: 0;
+    font-size: 20px;
+
+}
+
+.pictures {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.pictures .logo, .pictures .avatar {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    margin: 16px 16px 32px 16px;
+    border: 2px solid #2d3544;
+    border-radius: 8px;
+}
+
+.dragged-images .image-section {
+    position: relative;
+
+}
+
+.dragged-images img {
+    position: absolute;
+
+}
+
+.dragged-images .image-section{
+    display: none;
+}
+
+.dragged-images .image-section:first-child {
+    display: block;
+}
+
+.avatar {
+    background: #485164;
+    background-image: url(../img/avatar.png);
+    // background-blend-mode: overlay;
+    background-size: contain;
+}
+
+.topbar span {
+    float: right;
+    display: inline-block;
+    padding: 16px 20px;
+}
+
+footer {
+    position: absolute;
+    bottom: 24px;
+    opacity: .5;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+svg {
+    width: 128px;
+    margin-top: 14px;
+    margin-left: 16px;
+}
+
+use.logotype {
+    fill: #a2c9ff;
+}
+
+.target-image {
+    opacity: 0;
+}
